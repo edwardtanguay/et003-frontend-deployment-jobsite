@@ -3,6 +3,7 @@ import { NavLink, Routes, Route, Navigate } from 'react-router-dom';
 import { PageDashboard } from './pages/PageDashboard';
 import { PageJobs } from './pages/PageJobs';
 import { PageSkills } from './pages/PageSkills';
+import  employment from './assets/employment.jpg';
 
 function App() {
 	return (
@@ -20,6 +21,8 @@ function App() {
 				<Route path="/skills" element={<PageSkills />} />
 				<Route path="/" element={<Navigate to="/dashboard" replace />} />
 			</Routes>
+
+			<img className="employment" src={employment}/>
 		</div>
 	);
 }

@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"idCode": "getinit",
+		"title": "get-in-it",
+		"url": "https://www.get-in-it.de"
+	},
+	{
+		"id": 2,
+		"idCode": "honeypot",
+		"title": "Honeypot",
+		"url": "https://www.honeypot.io"
+	},
+	{
+		"id": 3,
+		"idCode": "moberries",
+		"title": "Moberries",
+		"url": "https://www.moberries.com/jobs"
+	}
+]

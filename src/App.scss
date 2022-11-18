@@ -16,6 +16,35 @@ body {
 		}
 	}
 
+	.pageJobs {
+		.jobSources {
+			.jobSource {
+				display: flex;
+				gap: .7rem;
+				margin-bottom: 1.5rem;
+
+				img {
+					width: 6rem;
+				}
+
+				.info {
+					.title {
+						color: black;
+						text-shadow: 1px 1px 10px #ccc;
+						font-size: 2rem;
+					}
+
+					.url {
+						a {
+							color: rgb(217, 217, 103);
+							font-size: 1.4rem;
+						}
+					}
+				}
+			}
+		}
+	}
+
 	nav {
 		background-color: #222;
 		padding: .5rem;
